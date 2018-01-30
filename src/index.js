@@ -1,8 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-const meInReact = 
-  React.createElement('div', {className: 'me',
+const meInReact =
+  React.createElement('div', {className: 'me'},
     React.createElement('h1', {}, 'An Awesome Person'),
     React.createElement('p', {}, 'Who is learning React'),
     React.createElement('ul', {className:'my-interests'}, [
@@ -11,8 +11,6 @@ const meInReact =
       React.createElement('li', {}, 'Movies'),
       React.createElement('li', {}, 'Ice cream')
     ])
-    
-
   )
 
 
@@ -22,4 +20,3 @@ ReactDOM.render(
 );
 
 export default meInReact
-
